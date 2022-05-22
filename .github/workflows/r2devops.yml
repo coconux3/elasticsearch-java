@@ -1,0 +1,14 @@
+# R2Devops.io pipeline template - this template aims to generate a complete pipeline
+#
+# Inputs:
+#   - List of technologies detected in the project : asciidoc, batchfile, dockerfile, html, ignore list, java, java properties, json, kotlin, markdown, shell, text, xml, yaml,
+
+name: R2Devops
+on:
+  push:
+    branches: [ main,r2devops-autopipeline]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+
